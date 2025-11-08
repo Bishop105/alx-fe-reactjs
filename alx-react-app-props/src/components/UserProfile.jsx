@@ -12,4 +12,4 @@ const userData = useContext(UserContext);
    );
  };
 
- export default UserProfile;
+export default UserProfile;
