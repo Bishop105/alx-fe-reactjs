@@ -1,6 +1,6 @@
 import create from 'zustand';
 
-const useRecipeStore = create(set => ({
+const useRecipeStore = create(setRecipes => ({
   recipes: [],
   searchTerm: '',
   setSearchTerm: (term) => set({ searchTerm: term }),
