@@ -1,6 +1,6 @@
 import create from 'zustand';
 
-const useRecipeStore = create(set => ({
+const useRecipeStore = create(setRecipes => ({
   recipes: [],
   addRecipe: (recipe) => set(state => ({ recipes: [...state.recipes, recipe] })),
   deleteRecipe: (id) => set(state => ({ recipes: state.recipes.filter(recipe => recipe.id !== id) })),
