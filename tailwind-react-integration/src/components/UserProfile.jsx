@@ -4,7 +4,7 @@ function UserProfile() {
       <img 
         src="https://via.placeholder.com/150" 
         alt="User" 
-        className="rounded-full w-24 h-24 sm:w-36 sm:h-36 mx-auto" 
+        className="rounded-full w-24 h-24 sm:w-36 sm:h-36 mx-auto hover:scale-110 transition-transform" 
       />
       <h1 className="text-lg md:text-xl text-blue-800 my-4 hover:text-blue-500 transition-colors duration-300 ease-in-out">John Doe</h1>
       <p className="text-sm md:text-base text-gray-600">
@@ -13,5 +13,6 @@ function UserProfile() {
     </div>
   );
 }
+
 
 export default UserProfile;
