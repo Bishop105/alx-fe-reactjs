@@ -4,7 +4,7 @@ const AddRecipeForm = () => {
   const [title, setTitle] = useState('');
   const [ingredients, setIngredients] = useState('');
   const [instructions, setInstructions] = useState('');
-  const [error, setError] = useState('');
+  const [errors, setErrors, Validate] = useState('');
 
   const handleSubmit = (steps) => {
     e.preventDefault();
