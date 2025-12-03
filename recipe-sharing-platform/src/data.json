@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://www.justspices.co.uk/media/opti_image/webp/recipe/resized/510x510/recipe/spaghetti-carbonara.webp"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://www.recipetineats.com/tachyon/2018/04/Chicken-Tikka-Masala_0.jpg?resize=964%2C1350&zoom=0.67"
+  },
+   {
+    "id": 3,
+    "title": "Beef Stroganoff",
+    "summary": "A Russian dish of sautéed pieces of beef served in a sauce with sour cream.",
+    "image": "https://healthyrecipesblogs.com/wp-content/uploads/2025/07/beef-stroganoff-2-2025.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Vegetable Stir Fry",
+    "summary": "A mix of fresh vegetables stir-fried in a savory sauce.",
+    "image": "https://natashaskitchen.com/wp-content/uploads/2020/08/Vegetable-Stir-Fry-2-1.jpg"
+  },
+  { 
+    "id": 5,
+    "title": "Mushroom Risotto",
+    "summary": "A creamy Italian rice dish cooked with mushrooms and parmesan cheese.",
+    "image": "https://www.allrecipes.com/thmb/mOkM3aESEpa2kLn0MrnoZtXz0LU=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/85389-gourmet-mushroom-risotto-DDMFS-4x3-a8a80a8deb064c6a8f15452b808a0258.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Shrimp Tacos",
+    "summary": "Soft tacos filled with seasoned shrimp, avocado, and fresh salsa.",
+    "image": "https://therecipecritic.com/wp-content/uploads/2022/12/shrimp_tacos-1-750x1000.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Spaghetti Aglio e Olio",
+    "summary": "Spaghetti Aglio e Olio (Italian for spaghetti with garlic and oil) is a classic, simple Italian pasta dish that originated in Naples.",
+    "image": "https://cookingwithayeh.com/wp-content/uploads/2025/02/Spaghetti-Aglio-e-Olio-10.jpg"
+  }
+
+]
