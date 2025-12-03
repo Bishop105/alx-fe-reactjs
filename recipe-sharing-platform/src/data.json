@@ -3,43 +3,222 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://www.justspices.co.uk/media/opti_image/webp/recipe/resized/510x510/recipe/spaghetti-carbonara.webp"
+    "image": "https://www.justspices.co.uk/media/opti_image/webp/recipe/resized/510x510/recipe/spaghetti-carbonara.webp",
+    "ingredients":[
+      "Main ingredients",
+      "Pasta: Spaghetti is traditional.",
+      "Cured pork: Use either guanciale (cured pork jowl) for the most authentic flavor, or pancetta (cured pork belly) or good-quality bacon.",
+      "Eggs: A combination of whole eggs and extra yolks is often used for a richer sauce.",
+      "Cheese: Pecorino Romano is the traditional choice, but Parmesan or a mix of both is also common.",
+      "Other ingredients",
+      "Black pepper: Freshly ground black pepper is crucial for flavor. Toasting the peppercorns before grinding them can enhance the taste.",
+      "Salt: To season the pasta water.",
+      "Pasta water: The starchy water the pasta was cooked in is essential for creating the sauce's creamy texture."
+    ],
+    "instructions":[
+       "step 1",
+       "Put a large saucepan of water on to boil.",
+       "step 2",
+       "Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.",
+       "step 3",
+       "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.",
+       "step 4",
+       "Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked).",
+       "step 5",
+       "Squash 2 peeled plump garlic cloves with the blade of a knife, just to bruise it.",
+       "step 6",
+       "While the spaghetti is cooking, fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and, as soon as the butter has melted, tip in the pancetta and garlic.",
+       "step 7",
+       "Leave to cook on a medium heat for about 5 minutes, stirring often, until the pancetta is golden and crisp. The garlic has now imparted its flavour, so take it out with a slotted spoon and discard.",
+       "step 8",
+       "Keep the heat under the pancetta on low. When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet.",
+       "step 9",
+       "Mix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later.",
+       "step 10",
+       "Take the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated.",
+       "step 11",
+       "Add extra pasta cooking water to keep it saucy (several tablespoons should do it). You don’t want it wet, just moist. Season with a little salt, if needed."
+         
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://www.recipetineats.com/tachyon/2018/04/Chicken-Tikka-Masala_0.jpg?resize=964%2C1350&zoom=0.67"
+    "image": "https://www.recipetineats.com/tachyon/2018/04/Chicken-Tikka-Masala_0.jpg?resize=964%2C1350&zoom=0.67",
+    "ingredients":[
+      "Chicken breast or thighs",
+      "Plain yogurt or Greek yogurt",
+      "Ginger and garlic paste",
+      "Lemon juice",
+      "Ground coriander, cumin, paprika, and garam masala",
+      "Turmeric, chili powder, or cayenne pepper",
+      "Salt"
+    ],
+    "instructions":[
+      "Heat ghee in a large skillet over medium heat. Add onion; cook and stir until translucent, about 5 minutes.",
+      "Stir in garlic; cook and stir just until fragrant, about 1 minute. Stir cumin, 1 teaspoon salt, ginger, cayenne pepper, cinnamon, and turmeric into onion mixture; fry until fragrant, about 2 minutes.",
+      "Stir tomato sauce into onion and spice mixture; bring to a boil and reduce heat to low.",
+      "Simmer sauce for 10 minutes, then mix in cream, 1 tablespoon sugar, and paprika. Bring sauce back to a simmer and cook, stirring often, until sauce is thickened, 10 to 15 minutes.",
+      "Heat vegetable oil in a separate skillet over medium heat. Stir chicken into hot oil; add curry powder. Sear chicken until lightly browned but still pink inside, about 3 minutes; stir often.",
+      "Transfer chicken and any pan juices into sauce. Simmer chicken in sauce until no longer pink, about 30 minutes; adjust sugar and salt to taste."
+    ]
+    
   },
+
    {
     "id": 3,
     "title": "Beef Stroganoff",
     "summary": "A Russian dish of sautéed pieces of beef served in a sauce with sour cream.",
-    "image": "https://healthyrecipesblogs.com/wp-content/uploads/2025/07/beef-stroganoff-2-2025.jpg"
+    "image": "https://healthyrecipesblogs.com/wp-content/uploads/2025/07/beef-stroganoff-2-2025.jpg",
+    "ingredients":[
+       "1 lb beef, sliced",
+      "1 onion, sliced",
+      "2 cups mushrooms, sliced",
+      "2 cups beef broth",
+      "1 cup sour cream",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Brown the beef in a pan and remove.",
+      "Sauté onion and mushrooms in the same pan.",
+      "Return beef to the pan and add broth.",
+      "Simmer for 20 minutes.",
+      "Stir in sour cream and serve over noodles."
+    ]
+
   },
   {
     "id": 4,
     "title": "Vegetable Stir Fry",
     "summary": "A mix of fresh vegetables stir-fried in a savory sauce.",
-    "image": "https://natashaskitchen.com/wp-content/uploads/2020/08/Vegetable-Stir-Fry-2-1.jpg"
+    "image": "https://natashaskitchen.com/wp-content/uploads/2020/08/Vegetable-Stir-Fry-2-1.jpg",
+    "ingredients":[
+      "Cooking oil: A high-heat oil like canola, sunflower, or groundnut oil.",
+      "Aromatics: Garlic and ginger, fresh or powdered. Onion and spring onion can also be used.",
+      "Hard vegetables: Carrots, broccoli, sugar snap peas, baby corn.",
+      "Soft vegetables: Bell peppers, mushrooms, zucchini, cabbage.",
+      "Sauce: A mixture of soy sauce, broth, water, and a thickener like cornstarch.",
+      "Optional: Sesame oil, sesame seeds, or other seasonings like chili flakes."
+    ],
+    "instructions":[
+      "Prep: Chop all vegetables into similar-sized pieces. Whisk together sauce ingredients (e.g., soy sauce, broth, cornstarch) in a separate bowl.",
+      "Heat the wok: Add cooking oil to a wok or large skillet and heat over medium-high to high heat until shimmering.",
+      "Cook aromatics: Add garlic and ginger and stir-fry for about 30 seconds until fragrant.",
+      "Stir-fry vegetables: Add the harder vegetables (like carrots and broccoli) first and stir-fry for a few minutes until they begin to soften. Then add the softer vegetables (like bell peppers and mushrooms) and cook until they are crisp-tender. Keep the vegetables moving to prevent burning.",
+      "Add sauce: Pour the prepared sauce over the vegetables and stir to coat.",
+      "Thicken and serve: Cook until the sauce bubbles and thickens, which usually takes about 30-60 seconds if cornstarch is used. Serve immediately over rice or noodles, and add optional toppings like sesame seeds."
+    ]
   },
   { 
     "id": 5,
     "title": "Mushroom Risotto",
     "summary": "A creamy Italian rice dish cooked with mushrooms and parmesan cheese.",
-    "image": "https://www.allrecipes.com/thmb/mOkM3aESEpa2kLn0MrnoZtXz0LU=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/85389-gourmet-mushroom-risotto-DDMFS-4x3-a8a80a8deb064c6a8f15452b808a0258.jpg"
+    "image": "https://www.allrecipes.com/thmb/mOkM3aESEpa2kLn0MrnoZtXz0LU=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/85389-gourmet-mushroom-risotto-DDMFS-4x3-a8a80a8deb064c6a8f15452b808a0258.jpg",
+    "ingredients":[
+      "1 cup Arborio rice",
+      "4 cups vegetable broth",
+      "1 cup mushrooms, sliced",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat the broth in a saucepan.",
+      "In another pan, sauté onion and garlic until translucent.",
+      "Add mushrooms and cook until soft.",
+      "Stir in the rice and cook for 1 minute.",
+      "Gradually add broth, stirring until absorbed.",
+      "Cook until rice is creamy and al dente."
+    ]
   },
   {
     "id": 6,
     "title": "Shrimp Tacos",
     "summary": "Soft tacos filled with seasoned shrimp, avocado, and fresh salsa.",
-    "image": "https://therecipecritic.com/wp-content/uploads/2022/12/shrimp_tacos-1-750x1000.jpg"
+    "image": "https://therecipecritic.com/wp-content/uploads/2022/12/shrimp_tacos-1-750x1000.jpg",
+    "ingredients":[
+      "Shrimp: 1 pound, peeled and deveined",
+      "Olive oil: 1-2 tablespoons",
+      "Taco seasoning: 2-3 tablespoons, or your preferred blend (chili powder, cumin, garlic powder, onion powder, etc.)",
+      "Salt and pepper: To taste",
+      "Tortillas: 8-10 corn or flour tortillas",
+      "Toppings:",
+      "Cabbage, shredded",
+      "Avocado, sliced or diced",
+      "Cilantro",
+      "Lime wedges",
+      "Salsa or pico de gallo",
+      "Sour cream or a creamy sauce",
+      "Other optional toppings: pickled onions, cotija cheese, mango salsa"
+    ],
+    "instructions":[
+      "Season the shrimp: Pat the shrimp dry. In a medium bowl, toss the shrimp with olive oil, taco seasoning, salt, and pepper until evenly coated. Let it marinate for a few minutes.",
+      "Cook the shrimp: Heat a large skillet over medium-high heat with a little more olive oil. Add the shrimp in a single layer and cook for 2-3 minutes per side, until they are pink and cooked through. Remove from heat.",
+      "Warm the tortillas: While the shrimp cooks, warm the tortillas in a dry skillet over high heat for about 15 seconds per side, or until soft and pliable.",
+      "Prepare toppings: Mix shredded cabbage with a dressing (like a creamy cilantro-lime sauce) if desired, and slice or dice your other toppings.",
+      "Assemble the tacos: Fill each warm tortilla with a portion of the cooked shrimp, followed by the slaw and other desired toppings like avocado, salsa, and a drizzle of creamy sauce. Serve with lime wedges on the side."
+    ]
   },
+ {
+  "id": 7,
+  "title": "Chocolate Lava Cake",
+  "summary": "A rich chocolate cake with a gooey molten center.",
+  "image": "https://images.getrecipekit.com/20250325120225-how-20to-20make-20chocolate-20molten-20lava-20cake-20in-20the-20microwave.png?width=650&quality=90&",
+  "ingredients": [
+    "2 oz (55 g) high-quality dark chocolate, chopped",
+    "2 tablespoons unsalted butter",
+    "1 large egg",
+    "2 tablespoons granulated sugar",
+    "1 teaspoon vanilla extract",
+    "2 tablespoons all-purpose flour",
+    "Pinch of salt",
+    "1 tablespoon milk or heavy cream (optional for extra richness)"
+  ],
+  "instructions": [
+    "Melt the Chocolate & Butter",
+    "In a microwave-safe mug or ramekin, add the chopped dark chocolate and butter.",
+    "Microwave in 20-second intervals, stirring each time, until melted and smooth.",
+    "Make the Batter",
+    "Whisk in the sugar, egg, and vanilla extract until fully combined.",
+    "Gently stir in the flour and salt until just mixed. Do not overmix—this keeps the centre molten!",
+    "If using, stir in 1 tablespoon milk or heavy cream for an even silkier texture.",
+    "Microwave & Serve",
+    "Microwave on medium-high (70-80% power) for 45-60 seconds.",
+    "The edges should be set, but the centre should still be slightly jiggly.",
+    "If needed, microwave in 5-second increments, checking for done-ness.",
+    "Let sit for 30 seconds before serving.",
+    "Enjoy Your Molten Lava Cake!",
+    "Top with powdered sugar, fresh berries, or a scoop of vanilla ice cream.",
+    "Drizzle with extra melted chocolate or caramel for an extra indulgent touch.",
+    "Eat immediately for the perfect molten lava effect!"
+  ]
+},
+
+
   {
     "id": 8,
     "title": "Spaghetti Aglio e Olio",
     "summary": "Spaghetti Aglio e Olio (Italian for spaghetti with garlic and oil) is a classic, simple Italian pasta dish that originated in Naples.",
-    "image": "https://cookingwithayeh.com/wp-content/uploads/2025/02/Spaghetti-Aglio-e-Olio-10.jpg"
+    "image": "https://cookingwithayeh.com/wp-content/uploads/2025/02/Spaghetti-Aglio-e-Olio-10.jpg",
+    "ingredients":[
+     "1 lb (450g) spaghetti",
+     "1/2 cup extra-virgin olive oil",
+     "6-8 cloves garlic, thinly sliced",
+     "1/2 tsp crushed red pepper flakes (peperoncino), to taste",
+     "1 tsp red chili flakes",
+     "¼ cup fresh parsley, finely chopped",
+     "½ tsp salt",
+     "¼ cup Parmesan cheese"
+    ],
+    "instructions": [
+      "Cook the pasta: Bring a large pot of generously salted water to a boil. Add the spaghetti and cook until just shy of al dente (about 1-2 minutes less than the package directions, as it will continue cooking in the pan).",
+      "Reserve pasta water: Before draining, scoop out at least 1/2 to 1 cup of the starchy pasta water and set it aside. Drain the pasta.",
+      "Infuse the oil: While the pasta is cooking, place the olive oil and sliced garlic in a large skillet over low to medium-low heat. Cook slowly, stirring frequently, until the garlic is fragrant and just beginning to turn lightly golden brown around the edges. Do not burn the garlic, or it will become bitter.",
+      "Add heat and moisture: Stir in the red pepper flakes and cook for about 30 seconds. Add a ladle (about 1/2 cup) of the reserved pasta water to the pan to stop the cooking of the garlic and allow the flavors to combine. Whisk vigorously until the oil and water emulsify into a light, silky sauce.",
+      "Combine pasta and sauce: Add the partially cooked, drained spaghetti directly into the skillet. Increase the heat to medium and use tongs to toss and stir the pasta continuously for 1-2 minutes, allowing it to finish cooking and absorb the flavors. Add more pasta water a splash at a time if the sauce looks dry.",
+      "Finish and serve: Remove the pan from the heat. Stir in the chopped fresh parsley (if using) and season with salt and black pepper to taste. Toss everything together, then transfer the pasta to serving bowls. Garnish with additional parsley or a sprinkle of Parmigiano-Reggiano cheese if desired. Serve immediately. "
+    ]
   }
 
 ]
