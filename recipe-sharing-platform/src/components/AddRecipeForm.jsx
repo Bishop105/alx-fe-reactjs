@@ -12,7 +12,7 @@ const AddRecipeForm = () => {
 
     // Validation
     if (!title || !ingredients || !instructions) {
-      setError('All fields are required.');
+      setError('All Steps are required.');
       return;
     }
 
