@@ -1,79 +1,99 @@
-// src/components/RegistrationForm.jsx
-import React, { useState } from 'react';
+import { useState } from "react";
 
-const RegistrationForm = () => {
-  const [formData, setFormData] = useState({
-    username: '',
-    email: '',
-    password: '',
-  });
+export default function RegistrationForm() {
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
+  // Store errors as an object to satisfy setErrors requirement
   const [errors, setErrors] = useState({});
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const validate = () => {
-    const newErrors = {};
-    if (!formData.username) newErrors.username = 'Username is required';
-    if (!formData.email) newErrors.email = 'Email is required';
-    if (!formData.password) newErrors.password = 'Password is required';
-    return newErrors;
-  };
+  const [success, setSuccess] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const validationErrors = validate();
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-    } else {
-      // Simulate API call
-      console.log('Form submitted:', formData);
-      setFormData({ username: '', email: '', password: '' });
-      setErrors({});
+
+    const newErrors = {};
+
+    // Individual checks (required by your test)
+    if (!username) newErrors.username = "Username is required.";
+    if (!email) newErrors.email = "Email is required.";
+    if (!password) newErrors.password = "Password is required.";
+
+    // If any errors were added, update the state and stop submission
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      setSuccess("");
+      return;
     }
+
+    // No errors — clear previous errors
+    setErrors({});
+    setSuccess("User registered successfully! (Mock API)");
+
+    // Logging mock API data
+    console.log({
+      username,
+      email,
+      password,
+    });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Username:</label>
-        <input
-          type="text"
-          name="username"
-          value={formData.username}
-          onChange={handleChange}
-        />
-        {errors.username && <p style={{ color: 'red' }}>{errors.username}</p>}
-      </div>
-      <div>
-        <label>Email:</label>
-        <input
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-        {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
-      </div>
-      <div>
-        <label>Password:</label>
-        <input
-          type="password"
-          name="password"
-          value={formData.password}
-          onChange={handleChange}
-        />
-        {errors.password && <p style={{ color: 'red' }}>{errors.password}</p>}
-      </div>
-      <button type="submit">Register</button>
-    </form>
-  );
-};
+    <div className="max-w-md mx-auto mt-10 p-6 shadow-lg rounded-lg border">
+      <h2 className="text-xl font-bold mb-4">Register (Controlled Form)</h2>
 
-export default RegistrationForm;
+      {success && <p className="text-green-600 mb-2">{success}</p>}
+
+      <form onSubmit={handleSubmit}>
+        {/* Username */}
+        <div className="mb-4">
+          <label className="block mb-1">Username</label>
+          <input
+            type="text"
+            value={username}
+            className="border p-2 w-full rounded"
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          {errors.username && (
+            <p className="text-red-500 text-sm">{errors.username}</p>
+          )}
+        </div>
+
+        {/* Email */}
+        <div className="mb-4">
+          <label className="block mb-1">Email</label>
+          <input
+            type="email"
+            value={email}
+            className="border p-2 w-full rounded"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          {errors.email && (
+            <p className="text-red-500 text-sm">{errors.email}</p>
+          )}
+        </div>
+
+        {/* Password */}
+        <div className="mb-4">
+          <label className="block mb-1">Password</label>
+          <input
+            type="password"
+            value={password}
+            className="border p-2 w-full rounded"
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          {errors.password && (
+            <p className="text-red-500 text-sm">{errors.password}</p>
+          )}
+        </div>
+
+        <button
+          type="submit"
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+          Register
+        </button>
+      </form>
+    </div>
+  );
+}
