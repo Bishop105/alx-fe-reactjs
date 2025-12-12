@@ -17,13 +17,14 @@ const RegistrationForm = () => {
       [name]: value,
     });
   };
-const validate = () => {
+
+  const validate = () => {
     const newErrors = {};
-    const requiredFields = [
-      { field: 'username', message: 'Username is required' },
-      { field: 'email', message: 'Email is required' },
-      { field: 'password', message: 'Password is required' },
-    ];
+    if (!formData.username) newErrors.username = 'Username is required';
+    if (!formData.email) newErrors.email = 'Email is required';
+    if (!formData.password) newErrors.password = 'Password is required';
+    return newErrors;
+  };
 
 
   const handleSubmit = (e) => {
